@@ -6,4 +6,4 @@ Personal project to install Zig on a Linux system. Not much has been implemented
 
 ## Usage
 
-- run ```ziginstall help``` to see available commands.
+- run ```ziginstall``` to see available commands.
