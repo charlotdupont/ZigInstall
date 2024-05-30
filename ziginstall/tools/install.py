@@ -20,6 +20,8 @@ def _cleanup( tmp_dir: str ):
 
 
 def install_zig( install_path: str, components: ZigVersionComponents ):
+    # TODO: Verify signature
+
     complete_install_path = os.path.join(install_path,
                                          f"zig-{components.os.lower()}-{components.arch.lower()}-{components.version}"
                                          )
