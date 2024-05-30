@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b1e4225-b2b1-4668-a581-ebf3294a574a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/_global.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/_linux.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/cli.py" afterDir="false" />
-    </list>
+    <list default="true" id="7b1e4225-b2b1-4668-a581-ebf3294a574a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717024508665</updated>
-      <workItem from="1717024513389" duration="6966000" />
+      <workItem from="1717024513389" duration="7462000" />
     </task>
     <servers />
   </component>
