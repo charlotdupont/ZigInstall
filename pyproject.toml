@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ziginstall"
+version = "0.1.0"
+description = ""
+authors = ["charlotdupont <charlo.dupont@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+click = "^8.1.7"
+distro = "^1.9.0"
+platformdirs = "^4.2.2"
+colorama = "^0.4.6"
+tdqm = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ziginstall = "ziginstall.cli:zig_install"
