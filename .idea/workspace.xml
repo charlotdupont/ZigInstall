@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b1e4225-b2b1-4668-a581-ebf3294a574a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-    </list>
+    <list default="true" id="7b1e4225-b2b1-4668-a581-ebf3294a574a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +71,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717024508665</updated>
       <workItem from="1717024513389" duration="26512000" />
-      <workItem from="1717061360289" duration="2261000" />
+      <workItem from="1717061360289" duration="2656000" />
     </task>
     <servers />
   </component>
