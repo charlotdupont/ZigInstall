@@ -69,12 +69,12 @@ def list():
         for entry in os.scandir(directory):
             if entry.is_dir():
                 parts = entry.name.split("-")
-                vname = None
+                version_name = None
                 if len(parts) == 5:
-                    vname = f"[dev] {parts[3]} - {parts[4]}"
+                    version_name = f"[dev] {parts[3]} - {parts[4]}"
                 if len(parts) == 4:
-                    vname = f"[rel] {parts[3]}"
-                click.echo(f"    {vname}")
+                    version_name = f"[rel] {parts[3]}"
+                click.echo(f"    {version_name}")
 
 
 @zig_install.command()
