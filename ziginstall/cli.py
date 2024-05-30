@@ -60,6 +60,8 @@ def install( target_version: str | None, install_path: str | None = None, ):
 def list():
     """
     Lists all tracked Zig installations.
+
+    Does not track installations that were not installed with ZigInstall.
     """
 
     install_directories = list_install_locations()
