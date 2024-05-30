@@ -1,5 +1,5 @@
 # Zig Install
-[![PyPI](https://github.com/charlotdupont/ZigInstall/actions/workflows/python-publish.yml/badge.svg?branch=master&event=deployment)](https://github.com/charlotdupont/ZigInstall/actions/workflows/python-publish.yml)
+[![PyPI](https://github.com/charlotdupont/ZigInstall/actions/workflows/python-publish.yml/badge.svg)](https://github.com/charlotdupont/ZigInstall/actions/workflows/python-publish.yml)
 
 Personal project to install Zig.
 
