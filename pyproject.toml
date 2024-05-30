@@ -9,10 +9,8 @@ readme = "README.md"
 python = "^3.12"
 requests = "^2.32.3"
 click = "^8.1.7"
-distro = "^1.9.0"
 platformdirs = "^4.2.2"
 colorama = "^0.4.6"
-tdqm = "^0.0.1"
 packaging = "^24.0"
 
 
