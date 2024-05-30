@@ -1,7 +1,6 @@
 import platform
 import re
 import subprocess
-from dataclasses import dataclass
 
 import requests
 from packaging import version as versioning
@@ -11,16 +10,17 @@ from ziginstall._logging import log
 ZIG_JSON_INDEX_URL = "https://ziglang.org/download/index.json"
 
 
-@dataclass
 class ZigVersionComponents:
-    arch: str
-    os: str
-    url: str
-    shasum: str
-    size: int
+    def __init__( self, arch: str, os: str, url: str, shasum: str, size: int, version: str ):
+        self.arch = arch
+        self.os = os
+        self.url = url
+        self.shasum = shasum
+        self.size = size
+        self.version = version
 
 
-def get_os() -> str:
+def _get_os() -> str:
     """
     Fetches the operating system of the current system.
     :return: The operating system of the current system. Empty string if the OS is unknown.
@@ -39,7 +39,7 @@ def get_installed_zig_version() -> str | None:
         result = subprocess.run(["zig", "version"], capture_output=True, text=True)
         return result.stdout.strip()
     except FileNotFoundError as e:
-        log.error(f"Error fetching installed version: Zig is not installed and in PATH.", extra={ "error": e })
+        log.debug(f"Error fetching installed version: Zig is not installed and in PATH.", extra={ "error": e })
         return None
 
 
@@ -63,7 +63,7 @@ def get_latest_zig_version() -> tuple[str, str] | None:
         return str(master_version), most_recent
     except requests.RequestException as e:
         log.error(f"Error fetching latest version: {e}")
-        return None
+        exit(1)
 
 
 def _versions_by_os( versions: list[str] ) -> dict[str, list[str]]:
@@ -106,13 +106,17 @@ def _is_valid_version( version: str ) -> bool:
 
 
 def find_zig_version_components( target_version: str = "master" ) -> ZigVersionComponents | None:
-    os = get_os()
+    if target_version is None:  # Click assigns None, overriding the default value.
+        target_version = "master"
+
+    os = _get_os()
     arch = platform.machine()
     log.debug(f"Operating system: {os}, architecture: {arch}")
 
+    # Check if the version is valid.
     if not _is_valid_version(target_version):
         log.error(f"Invalid version: {target_version}")
-        return None
+        exit(1)
 
     response = requests.get(ZIG_JSON_INDEX_URL)
     load = response.json()
@@ -121,11 +125,17 @@ def find_zig_version_components( target_version: str = "master" ) -> ZigVersionC
         response.raise_for_status()
     except requests.RequestException as e:
         log.error(f"Error fetching latest version: {e}")
-        return None
+        exit(1)
 
-    versions = [key for key, value in load[target_version].items() if isinstance(value, dict)]
+    flavors = None
 
-    seperated_versions = _versions_by_os(versions)
+    try:
+        flavors = [key for key, value in load[target_version].items() if isinstance(value, dict)]
+    except KeyError:
+        log.error(f"Unsupported version: {target_version}")
+        exit(1)
+
+    seperated_versions = _versions_by_os(flavors)
 
     if not os.lower() in seperated_versions:
         log.error(f"Unsupported operating system: {os}")
@@ -136,10 +146,15 @@ def find_zig_version_components( target_version: str = "master" ) -> ZigVersionC
 
     version_id = f"{arch}-{os.lower()}"
 
+    output_version = target_version
+    if target_version == "master":
+        output_version = load["master"]["version"]
+
     return ZigVersionComponents(
             arch=arch,
             os=os,
             url=load[target_version][version_id]["tarball"],
             shasum=load[target_version][version_id]["shasum"],
-            size=load[target_version][version_id]["size"]
+            size=load[target_version][version_id]["size"],
+            version=output_version,
             )
