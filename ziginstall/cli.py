@@ -2,8 +2,7 @@ import click
 from colorama import Fore, Style
 
 from ziginstall._logging import init_logging, log
-from ziginstall._tools import get_installed_version
-from ziginstall.tools._core import get_latest_zig_version
+from ziginstall.tools.core import get_latest_zig_version, get_installed_zig_version
 
 
 @click.group(name="ziginstall")
@@ -34,8 +33,8 @@ def install():
 @zig_install.command()
 def version():
     """
-    Prints the installed version of Zig.
+    Version information about installed and latest Zig versions.
     """
-    click.echo(f"{Fore.CYAN}{Style.BRIGHT}Installed Zig Version: {Style.RESET_ALL}{Fore.MAGENTA}{get_installed_version()}{Style.RESET_ALL}")
+    click.echo(f"{Fore.CYAN}{Style.BRIGHT}Installed Zig Version: {Style.RESET_ALL}{Fore.MAGENTA}{get_installed_zig_version()}{Style.RESET_ALL}")
     click.echo(f"{Fore.CYAN}{Style.BRIGHT}Latest Zig Release Version: {Style.RESET_ALL}{Fore.MAGENTA}{get_latest_zig_version()[1]}{Style.RESET_ALL}")
     click.echo(f"{Fore.CYAN}{Style.BRIGHT}Latest Zig Master Version: {Style.RESET_ALL}{Fore.MAGENTA}{get_latest_zig_version()[0]}{Style.RESET_ALL}")
