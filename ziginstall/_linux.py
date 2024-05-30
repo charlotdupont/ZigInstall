@@ -1,6 +1,6 @@
 import platform
 
-from ziginstall._global import log
+from ziginstall._logging import log
 
 
 def get_linux_zig_version_name():

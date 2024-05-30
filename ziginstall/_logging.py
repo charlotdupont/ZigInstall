@@ -34,7 +34,7 @@ def init_logging( debug: bool ):
     if debug:
         logging.basicConfig(level=logging.DEBUG, handlers=[handler])
     else:
-        logging.basicConfig(level=logging.WARNING, handlers=[handler])
+        logging.basicConfig(level=logging.INFO, handlers=[handler])
 
 
 log = getLogger("ZigInstall")

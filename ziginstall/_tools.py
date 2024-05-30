@@ -3,8 +3,8 @@ import subprocess
 
 import requests
 
-from ziginstall._global import log
 from ziginstall._linux import get_linux_zig_version_name
+from ziginstall._logging import log
 
 ZIG_VERSION_URL = "https://ziglang.org/download/index.json"
 
