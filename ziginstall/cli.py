@@ -65,9 +65,11 @@ def list():
     """
 
     install_directories = list_install_locations()
+    click.echo()
     click.echo(f"{Fore.CYAN}{Style.BRIGHT}Tracked Installations:{Style.RESET_ALL}")
     for index, directory in enumerate(install_directories):
         click.echo(f"[{index}] {Fore.MAGENTA}{directory}{Style.RESET_ALL}")
+
         for entry in os.scandir(directory):
             if entry.is_dir():
                 parts = entry.name.split("-")
