@@ -13,8 +13,6 @@ Personal project to install Zig.
 - run ```ziginstall``` to see available commands.
 - run ```ziginstall install``` to install Zig.
     - You can specify the version to install by running ```ziginstall install -v <version>```.
-    - You can specify the installation directory by running ```ziginstall install -d <directory>```.
-      ull
 
 ## TODO
 
