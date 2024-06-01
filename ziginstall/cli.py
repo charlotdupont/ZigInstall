@@ -2,6 +2,7 @@ import click
 
 from ziginstall._logging import init_logging, log
 from ziginstall.install.cli import install
+from ziginstall.version_management.cli import list, use, uninstall
 
 
 @click.group(name="ziginstall")
@@ -22,3 +23,6 @@ def zig_install( ctx, debug: bool ):
 
 
 zig_install.add_command(install)
+zig_install.add_command(list)
+zig_install.add_command(use)
+zig_install.add_command(uninstall)

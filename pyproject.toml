@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ziginstall"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["charlotdupont <charlo.dupont@gmail.com>"]
 readme = "README.md"
@@ -12,6 +12,7 @@ click = "^8.1.7"
 platformdirs = "^4.2.2"
 colorama = "^0.4.6"
 packaging = "^24.0"
+rich = "^13.7.1"
 
 
 [tool.poetry.group.dev.dependencies]

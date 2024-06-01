@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1e4225-b2b1-4668-a581-ebf3294a574a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ziginstall/version_management/cli.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziginstall/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziginstall/install/_install_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/install/_install_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziginstall/version_management/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/version_management/core.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,31 +55,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python._core.executor&quot;: &quot;Run&quot;,
-    &quot;Python._global.executor&quot;: &quot;Run&quot;,
-    &quot;Python._install.executor&quot;: &quot;Run&quot;,
-    &quot;Python._linux.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cli.executor&quot;: &quot;Run&quot;,
-    &quot;Python.core.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tmp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tools.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tracking.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/charles/Desktop/Projects/ZigInstall/ziginstall/install&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python._core.executor": "Run",
+    "Python._global.executor": "Run",
+    "Python._install.executor": "Run",
+    "Python._linux.executor": "Run",
+    "Python.cli.executor": "Run",
+    "Python.core.executor": "Run",
+    "Python.tmp.executor": "Run",
+    "Python.tools.executor": "Run",
+    "Python.tracking.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "0.1.3",
+    "last_opened_file_path": "/home/charles/Desktop/Projects/ZigInstall/ziginstall/install",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Python",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ziginstall/install" />
@@ -125,7 +129,7 @@
     <SUITE FILE_PATH="coverage/ZigInstall$_linux.coverage" NAME="_linux Coverage Results" MODIFIED="1717045768550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />
     <SUITE FILE_PATH="coverage/ZigInstall$tracking.coverage" NAME="tracking Coverage Results" MODIFIED="1717059188868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />
     <SUITE FILE_PATH="coverage/ZigInstall$cli.coverage" NAME="cli Coverage Results" MODIFIED="1717225676299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall" />
-    <SUITE FILE_PATH="coverage/ZigInstall$core.coverage" NAME="core Coverage Results" MODIFIED="1717213313896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/version_management" />
+    <SUITE FILE_PATH="coverage/ZigInstall$core.coverage" NAME="core Coverage Results" MODIFIED="1717227565718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/version_management" />
     <SUITE FILE_PATH="coverage/ZigInstall$tools.coverage" NAME="tools Coverage Results" MODIFIED="1717029191105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall" />
     <SUITE FILE_PATH="coverage/ZigInstall$_core.coverage" NAME="_core Coverage Results" MODIFIED="1717048767209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />
     <SUITE FILE_PATH="coverage/ZigInstall$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1717208146427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />
