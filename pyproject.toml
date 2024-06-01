@@ -2,7 +2,7 @@
 name = "ziginstall"
 version = "0.1.3"
 description = ""
-version = "0.1.2"
+version = "0.1.4"
 description = "A simple CLI to install the Zig programming language on your system and manage versions."
 authors = ["charlotdupont <charlo.dupont@gmail.com>"]
 readme = "README.md"
