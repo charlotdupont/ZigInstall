@@ -1,12 +1,9 @@
 [tool.poetry]
 name = "ziginstall"
-<<<<<<< HEAD
 version = "0.1.3"
 description = ""
-=======
 version = "0.1.2"
 description = "A simple CLI to install the Zig programming language on your system and manage versions."
->>>>>>> 95aa2f4 (Added classifiers and keywords)
 authors = ["charlotdupont <charlo.dupont@gmail.com>"]
 readme = "README.md"
 license = "MIT"
