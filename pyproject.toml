@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ziginstall"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["charlotdupont <charlo.dupont@gmail.com>"]
 readme = "README.md"
