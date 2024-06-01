@@ -1,5 +1,6 @@
 # Zig Install
-![PyPI - License](https://img.shields.io/pypi/l/ziginstall) ![PyPI - Version](https://img.shields.io/pypi/v/ziginstall)
+![PyPI - License](https://img.shields.io/pypi/l/ziginstall) ![PyPI - Version](https://img.shields.io/pypi/v/ziginstall?style=for-the-badge&color=%23ffd343)
+
 
 Personal project to install Zig.
 
