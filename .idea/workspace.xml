@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1e4225-b2b1-4668-a581-ebf3294a574a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ziginstall/_locations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/install/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/install/_core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/install/_install_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/install/_verification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/install/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/tools/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/version_management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziginstall/version_management/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ziginstall/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ziginstall/tools/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/tools/install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ziginstall/tools/tracking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev.348+c564a16a0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev.348+c564a16a0/doc/langref.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev.348+c564a16a0/zig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +105,7 @@
       <workItem from="1717024513389" duration="26512000" />
       <workItem from="1717061360289" duration="4573000" />
       <workItem from="1717207060669" duration="8784000" />
-      <workItem from="1717219661691" duration="6017000" />
+      <workItem from="1717219661691" duration="6405000" />
     </task>
     <servers />
   </component>
