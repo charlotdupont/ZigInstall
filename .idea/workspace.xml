@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1e4225-b2b1-4668-a581-ebf3294a574a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ziginstall/version_management/cli.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziginstall/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziginstall/install/_install_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/install/_install_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziginstall/version_management/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/ziginstall/version_management/core.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +129,7 @@
     <SUITE FILE_PATH="coverage/ZigInstall$_linux.coverage" NAME="_linux Coverage Results" MODIFIED="1717045768550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />
     <SUITE FILE_PATH="coverage/ZigInstall$tracking.coverage" NAME="tracking Coverage Results" MODIFIED="1717059188868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />
     <SUITE FILE_PATH="coverage/ZigInstall$cli.coverage" NAME="cli Coverage Results" MODIFIED="1717225676299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall" />
-    <SUITE FILE_PATH="coverage/ZigInstall$core.coverage" NAME="core Coverage Results" MODIFIED="1717213313896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/version_management" />
+    <SUITE FILE_PATH="coverage/ZigInstall$core.coverage" NAME="core Coverage Results" MODIFIED="1717227565718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/version_management" />
     <SUITE FILE_PATH="coverage/ZigInstall$tools.coverage" NAME="tools Coverage Results" MODIFIED="1717029191105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall" />
     <SUITE FILE_PATH="coverage/ZigInstall$_core.coverage" NAME="_core Coverage Results" MODIFIED="1717048767209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />
     <SUITE FILE_PATH="coverage/ZigInstall$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1717208146427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ziginstall/tools" />

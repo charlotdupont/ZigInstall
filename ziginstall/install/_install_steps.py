@@ -99,7 +99,7 @@ def _five_post_install( components: ZigVersionComponents ) -> bool:
                 os.remove(os.path.join(install_directories_path, "zig"))
             except FileNotFoundError:
                 pass
-            shutil.copy(os.path.join(install_directories_path, components.version, "zig"), bin_directory_path)
+            os.symlink(os.path.join(install_directories_path, components.version, "zig"), bin_directory_path)
 
     __do_cleanup()
 
