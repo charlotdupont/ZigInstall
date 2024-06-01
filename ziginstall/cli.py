@@ -22,7 +22,7 @@ def zig_install( ctx, debug: bool ):
     log.debug(f"Debug mode : {debug}")
 
 
-zig_install.add_command(install)
 zig_install.add_command(list)
 zig_install.add_command(use)
+zig_install.add_command(install)
 zig_install.add_command(uninstall)

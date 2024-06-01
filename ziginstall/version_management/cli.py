@@ -7,15 +7,15 @@ from rich.table import Table
 
 from ziginstall._locations import used_file_path, bin_directory_path
 from ziginstall._logging import log
-from ziginstall.version_management.core import (get_installed_zig_versions, get_zig_version_in_use,
+from ziginstall.version_management.core import (_get_installed_zig_versions, _get_zig_version_in_use,
                                                 install_directories_path)
 
 
 @click.command()
 def list():
     """List all installed versions of Zig."""
-    installed = get_installed_zig_versions()
-    in_use = get_zig_version_in_use()
+    installed = _get_installed_zig_versions()
+    in_use = _get_zig_version_in_use()
 
     table = Table(show_header=True, header_style="bold magenta")
     table.add_column("Version")
@@ -33,7 +33,7 @@ def list():
 @click.argument("version")
 def use( version: str ):
     """Use a specific version of Zig."""
-    installed = get_installed_zig_versions()
+    installed = _get_installed_zig_versions()
     if version not in installed:
         click.echo(f"Version {version} is not installed.")
         return
@@ -54,12 +54,12 @@ def use( version: str ):
 @click.argument("version")
 def uninstall( version: str ):
     """Uninstall a specific version of Zig."""
-    installed = get_installed_zig_versions()
+    installed = _get_installed_zig_versions()
     if version not in installed:
         click.echo(f"Version {version} is not installed.")
         return
 
-    if version == get_zig_version_in_use():
+    if version == _get_zig_version_in_use():
         click.echo(f"Version {version} is currently in use. Please use another version before uninstalling.")
         return
 
