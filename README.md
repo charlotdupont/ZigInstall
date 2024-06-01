@@ -1,5 +1,5 @@
 # Zig Install
-![PyPI - License](https://img.shields.io/pypi/l/ziginstall?style=for-the-badge&color=!%5BPyPI%20-%20Version%5D(https%3A%2F%2Fimg.shields.io%2Fpypi%2Fv%2Fziginstall%3Fstyle%3Dfor-the-badge%26color%3D%2523ffd343))
+![PyPI - License](https://img.shields.io/pypi/l/ziginstall?style=flat-square&color=%233776ab)
  ![PyPI - Version](https://img.shields.io/pypi/v/ziginstall?style=for-the-badge&color=%23ffd343)
 
 
