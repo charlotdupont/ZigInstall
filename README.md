@@ -13,8 +13,10 @@ Personal project to install Zig.
 - run ```ziginstall``` to see available commands.
 - run ```ziginstall install``` to install Zig.
     - You can specify the version to install by running ```ziginstall install -v <version>```.
+- run ```ziginstall uninstall <version>``` to uninstall a specific Zig version. 
+- run ```ziginstall list``` to see installed Zig versions.
+- run ```ziginstall use <version>``` to use a specific Zig version.
 
 ## TODO
 
-- Uninstall functionality.
 - Add to path functionality.
